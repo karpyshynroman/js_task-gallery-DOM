@@ -13,15 +13,28 @@ body {
   padding: 0; }
 
 .gallery__large-img {
+  margin-top: 25px;
   width: 400px;
   height: 400px;
   display: block;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  padding: 10px;
+  border-radius: 30px;
+  background-color: lightgray; }
 
 .gallery__thumb {
   width: 200px;
-  height: 200px; }
+  height: 200px;
+  padding: 10px;
+  margin-left: 20px;
+  border-radius: 30px;
+  background-color: lightgray;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out; }
+  .gallery__thumb:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1); }
 
 .gallery__list {
   display: -webkit-box;
